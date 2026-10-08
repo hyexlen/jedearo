@@ -18,9 +18,15 @@ node3.link = node4
 node5 = Node()
 node5.data = "다현4"
 node4.link = node5
-print(node1.data, end="")
-print(node1.link.data, end="")
-print(node1.link.link.data, end="")
-print(node1.link.link.link.data, end="")
-print(node1.link.link.link.link.data, end="")
+#print(node1.data, end="")
+#print(node1.link.data, end="")
+#print(node1.link.link.data, end="")
+#print(node1.link.link.link.data, end="")
+#print(node1.link.link.link.link.data, end="")
+#위의 코드를 while문으로 바꾸면 아래와 같이 작성할 수 있음
 
+current = node1
+while current.link != None:
+    print(current.data, end="")
+    current = current.link
+    print(current.data, end="")
