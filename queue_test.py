@@ -30,10 +30,14 @@ def enqueue(data):
 
 def dequeue():
     global front
+    if is_queue_empty():
+        print("큐가 비어있습니다.")
+        return None
     front +=1
     data = test_queue[front]
     test_queue[front] = None
     """print("dequeue된 데이터:" + str(data)"""
+    return data
 
 
 
