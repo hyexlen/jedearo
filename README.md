@@ -1,4 +1,23 @@
 # 조현우 202630233
+# 261112 9월 10(2주차)~11월 12일(11주차) 재정리
+
+'''
+katok = []
+def add_data(friend):
+    katok.append(None)
+    kLen = len(katok)
+    katok[kLen-1] = friend
+
+add_data('다현')
+add_data('정연')
+add_data('쯔위')
+add_data('사나')
+add_data('지효')
+
+print(katok)
+'''
+
+
 ## 최근날짜가 맨 위에 올라오게
 ## 9월 10일 2주차 강의 내용 
 
