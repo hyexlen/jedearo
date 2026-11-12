@@ -1,7 +1,7 @@
 # 조현우 202630233
 # 261112 9월 10(2주차)~11월 12일(11주차) 재정리
 
-'''
+'''python
 katok = []
 def add_data(friend):
     katok.append(None)
